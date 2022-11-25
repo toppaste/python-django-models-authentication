@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.conf import settings
 from django.http import Http404
-from .models import BlogPost
+from .models import BlogPost, Tag
 from django.shortcuts import get_object_or_404
 
 from datetime import datetime
