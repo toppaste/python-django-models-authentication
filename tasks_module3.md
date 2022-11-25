@@ -36,8 +36,8 @@ Add a field called `postdate` of type `models.DateTimeField()` with parameters `
 Adding a `__str__()` method to the class will simplify rendering in admin view and our templates. In the `BlogPost` class, create a method called `__str__` that takes a parameter called `self`. Have the method return `self.title`. 
 
 ```python
-def __str__(self):
-	return self.title
+    def __str__(self):
+        return self.title
 ```
 
 # Add url reverser.
